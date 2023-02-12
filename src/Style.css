@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.compA {
+  background: lightgray;
+  width: 300px;
+  border-radius: 10px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.counter {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.clickHere {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.changeButton {
+  position: relative;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
